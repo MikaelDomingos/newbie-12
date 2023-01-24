@@ -1,0 +1,65 @@
+@media screen and (max-width: 411px) {
+    
+    .container{
+        max-width: 327px;
+     
+    
+    }
+    
+    section{
+        padding: 24px 24px 32px 24px;
+    }
+    
+    .img-1 img{  
+        padding: 13px;
+    }
+    
+    .text-1 h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .text-1 p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    ul{
+      
+        gap: 18px;
+    }
+    
+    li button{
+        padding: 12px 15px 12px 15px ;
+    }
+    
+    .submit button{
+        width: 100%;
+    font-size: 14px;
+    padding: 12px 0 12px 0;
+    }
+
+    
+    
+    .img-select p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    
+        .text-2 h1{
+            font-size: 24px;
+            line-height: 30px;
+        }
+    
+        .text-2 p{
+            font-size: 14px;
+            line-height: 22px;
+        
+        }
+.container-2{
+    max-width: 327px;
+}
+
+
+}

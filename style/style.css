@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;    
+    }
+
+.container{
+    max-width: 417px;
+    padding: 10px;
+
+}
+
+.container-2{
+    max-width: 417px;
+
+
+}
+
+section{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 32px 39px 32px 32px;
+}
+
+.img-1 img{
+    background-color:#262e38 ;
+    padding: 16px;
+    border-radius: 50%;
+margin-bottom: 25px;
+}
+
+.text-1 h1{
+    font-weight: 700;
+font-size: 28px;
+line-height: 35px;
+margin-bottom: 10px;
+}
+
+.text-1 p{
+    font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #969FAD;
+margin-bottom: 24px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+}
+
+li button{
+    padding: 14px 21px 14px 21px;
+    border-radius: 50%;
+    background-color:#262e38 ;
+    color: #7C8798;
+    border: none;
+    margin-bottom: 32px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+li button:hover{
+    background: #FC7614;
+    color: white;
+}
+
+li button:focus{
+    background: #7c8798;
+    color: white;
+}
+
+.submit button{
+    background-color:#FC7614 ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+   width: 100%;
+   padding: 14px 0 14px 0;
+    border-radius: 22.5px;
+    font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 2px;
+}
+
+.submit button:hover{
+    background: white;
+    color:#FC7614 ;
+}
+
+.img-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+.img-select img{
+max-width: 162px;
+height: 100px;
+width: 100%;
+}
+
+.img-select p{
+    font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #FC7614;
+background-color: #262e38;
+padding: 4px 19px 4px 19px;
+border-radius: 22.5px;
+}
+
+.text-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    }
+
+    .text-2 h1{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .text-2 p{
+        font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+    
+    }
+
+#thankyou{
+    display: none;
+}
+
+
